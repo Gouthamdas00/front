@@ -28,7 +28,7 @@ const LoginForm = () => {
         `${API_BASE_URL}/api/v1/users/login`,
         {
           username: values.username,
-          password(6+): values.password,
+          password: values.password,
         }
       );
 
