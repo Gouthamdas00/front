@@ -56,7 +56,7 @@ const LoginForm = () => {
           <Input placeholder="Username" className="formInput"/>
         </Form.Item>
         <Form.Item name="password" rules={[{ required: true, message: "Please enter your password" }]}>
-          <Input.Password placeholder="Password" className="formInput"/>
+          <Input.Password placeholder="Password (6+)" className="formInput"/>
         </Form.Item>
         <Form.Item>
           {loading ? (
